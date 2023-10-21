@@ -7,6 +7,9 @@
     <title>{{meta_title}}</title>
     <link rel="stylesheet" href="{{asset "built/screen.css"}}">
 
+    {{! Prism Code Syntax }}
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet" />
+    {{! /end prism }}
 
     {{! tocbot: Table of Contents }}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.18.2/tocbot.css">
@@ -144,6 +147,11 @@
     crossorigin="anonymous">
 </script>
 <script src='{{asset "built/main.min.js"}}'></script>
+
+{{! Prism Code Syntax }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+{{! /end prism }}
 
 {{! tocbot: Table of Contents }}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.18.2/tocbot.min.js"></script>
